@@ -1,0 +1,61 @@
+.skills{
+    background-color: black;
+    color: white;
+
+
+    .heading{
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        text-align: center;
+        padding: 10px;
+        font-size: 50px;
+        font-weight: 400;
+        color: #1A74E2;
+        background-color: #0e0e12;
+        font-family: 'M PLUS 1 Code', sans-serif; 
+        span{
+            color: white;
+        }   
+
+    }
+
+    .skills_container{
+        .skills_container_wrapper{
+
+            .skill_category{
+                // display: flex;
+
+                padding: 1rem;
+                margin-top: 1rem;
+                font-family: 'Edu QLD Beginner', cursive;
+                font-size: 50px;
+                text-align: center;
+
+                letter-spacing: 2px;
+                color: #1ae288;
+                background-color: rgb(73, 73, 73);
+
+                // border-right: 1px solid green;
+                // border-top: 1px solid green;
+                // border-bottom: 1px solid green;
+
+
+            }
+
+            .webdev, .other{
+
+                margin-top: 3rem;
+                margin-bottom: 2rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .webdev_wrapper, .other_wrapper{
+                    display: grid;
+                    grid-template-columns: repeat(4, 1fr);
+                    gap: 60px 100px;  
+                } 
+            }
+        }
+    }
+}

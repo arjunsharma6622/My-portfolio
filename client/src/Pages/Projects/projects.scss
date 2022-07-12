@@ -1,0 +1,35 @@
+.projects{
+    background-color: black;
+    .heading{
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        text-align: center;
+        padding: 10px;
+        font-size: 50px;
+        font-weight: 400;
+        color: #1A74E2;
+        background-color: #0e0e12;
+        font-family: 'M PLUS 1 Code', sans-serif; 
+        span{
+            color: white;
+        }   
+
+    }
+
+    .projects_container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+
+    .projectCardWrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 40px 50px;    
+    }
+    }
+}

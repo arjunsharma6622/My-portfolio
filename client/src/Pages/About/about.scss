@@ -1,0 +1,70 @@
+.about{
+    background-color: black;
+    // height: 100vh;
+
+    .heading{
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        text-align: center;
+        padding: 10px;
+        font-size: 50px;
+        font-weight: 400;
+        color: #1A74E2;
+        background-color: #0e0e12;
+        font-family: 'M PLUS 1 Code', sans-serif; 
+        span{
+            color: white;
+        } 
+
+    }
+
+    .about_container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 70vh;
+        padding: 0.2rem 1rem;
+
+        .about_content{
+            
+            font-family: 'Nunito', sans-serif;
+            display: flex;
+            flex: 0.9;
+            flex-direction: column;
+            font-size: 20px;
+            letter-spacing: 1px;
+            // text-align: end;
+            line-height: 40px;
+            color: white;
+
+            h1{
+                font-family: 'M PLUS 1 Code', sans-serif;
+                font-size: 30px;
+                font-weight: 400;
+                margin: 2rem 0;
+                color: #49B618;
+            }
+
+            p{
+                margin-left: 50px;
+            }
+
+            span{
+                color: #1A74E2;
+                font-family: 'Edu QLD Beginner', cursive;
+                font-size: 24px;
+            }
+        }
+
+        .about_image{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex: 1;
+
+            img{
+                width: 600px;
+            }
+        }
+    }
+}

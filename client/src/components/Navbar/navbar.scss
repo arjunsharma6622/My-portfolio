@@ -1,0 +1,61 @@
+.navbar{
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
+    padding: 1rem;
+    font-family: 'M PLUS 1 Code', sans-serif;
+
+    .navbar_wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .left{
+            display: flex;
+            flex: 2;
+            align-items: center;
+            justify-content: space-around;
+            .icons{
+                transition: 0.3s all ease;
+                color: #1A74E2;
+                &:hover{
+                    color: orange;
+                }
+            }
+        }
+        .middle{
+            display: flex;
+            flex: 4;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-family: 'Edu QLD Beginner', cursive;
+            letter-spacing: 3px;
+            font-size: 35px;
+            font-weight: 700;
+            
+        }
+        .right{
+            display: flex;
+            flex: 5;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 20px;
+            letter-spacing: 2px;
+            font-weight: 400;
+
+
+            .link{
+                text-decoration: none;
+                color: #49B618;
+                padding: 7px;
+            }
+            
+            .active{
+                color: #1A74E2;
+            }
+        }
+
+
+    }
+}

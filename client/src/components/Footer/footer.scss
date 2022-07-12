@@ -1,0 +1,37 @@
+.footer{
+    font-family: 'M PLUS 1 Code', sans-serif;
+    width: 100%;
+    overflow: hidden;
+    padding: 1rem 0;
+    background-color: #1E1E1E;
+
+    .footer_wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        .top{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            .icons{
+                color: #1A74E2;
+                text-align: center;
+                margin-right: 10px;
+                transition: 0.3s all ease;
+
+                &:hover{
+                    color: orange;
+                }
+            }
+
+        }
+        .bottom{
+            font-family: 'Edu QLD Beginner', cursive;
+            color: white;
+            font-size: 18px;
+        }
+    }
+}

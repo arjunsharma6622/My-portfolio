@@ -1,0 +1,54 @@
+.skillsCard{
+    font-family: 'Nunito', sans-serif;
+    width: 200px;
+    color: white;
+    // background-color: #1f2123;
+    // border: 1px solid white;
+    // height: 280px;
+    padding: 10px;
+    text-align: center;
+
+    .start{
+        text-align: start;
+        font-size: 20px;
+    }
+    .end{
+        // text-align: end;
+        text-align: start;
+        font-size: 20px;
+    }
+
+
+    .skills_wrapper{
+        transition: 0.3s ease all ;
+
+
+        // &:hover{
+        //     transform: scale(1.2);
+        // }
+        .skill_title{
+            font-family: 'M PLUS 1 Code', sans-serif;
+            font-size: 35px;
+            margin-bottom: 1.5rem;
+            letter-spacing: 2.3px;
+
+        }
+        .skills_img{
+            margin-bottom: 1rem;
+            img{
+                width: 50px;
+
+            }
+        }
+        .level{
+            span{
+                font-size: 25px;
+                color: white;
+            }
+            font-size: 20px;
+            color: rgb(211, 113, 22);
+
+
+        }
+    }
+}
