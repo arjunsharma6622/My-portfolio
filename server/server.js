@@ -8,12 +8,12 @@ const cors = require("cors")
 dotenv.config()
 
 //Variables
-const PORT = process.env.PORT || 3000
+const PORT = process.env.PORT || 8000
 const mongoDBUrl = process.env.mongoDBUrl
 
 //middlewares
 app.use(cors({
-    origin: 'https://arjunsharma.netlify.app'
+    origin : "*"
   }));
   
 app.use(bodyParser.json())
@@ -21,7 +21,6 @@ app.use(bodyParser.json())
 //routes
 const ProjectRoutes = require("./routes/ProjectRoutes")
 app.use("/api/project", ProjectRoutes)
-
 
 
 //connecting to Database
