@@ -8,7 +8,7 @@ const cors = require("cors")
 dotenv.config()
 
 //Variables
-const PORT = process.env.PORT || 8000
+const PORT = process.env.PORT || 8000 
 const mongoDBUrl = process.env.mongoDBUrl
 
 //middlewares
@@ -33,6 +33,4 @@ mongoose.connect(mongoDBUrl, {
 
 
 //listening to the server
-app.listen(PORT , (req, res) => {
-    console.log(`The server is running on PORT ${PORT}`)
-})
+app.listen(PORT)
