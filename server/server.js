@@ -8,7 +8,7 @@ const cors = require("cors")
 dotenv.config()
 
 //Variables
-const PORT = process.env.PORT
+const PORT = process.env.PORT || 3000
 const mongoDBUrl = process.env.mongoDBUrl
 
 //middlewares
