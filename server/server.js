@@ -31,6 +31,8 @@ mongoose.connect(mongoDBUrl, {
 .then(() => {console.log("DB connected")})
 .catch((err) => {`DB Error : ${err}`})
 
-
+app.get("/", (req, res) => {
+    res.send("Hello World")
+})
 //listening to the server
 app.listen(PORT)
