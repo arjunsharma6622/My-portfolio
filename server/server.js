@@ -12,7 +12,10 @@ const PORT = process.env.PORT || 8000
 const mongoDBUrl = process.env.mongoDBUrl
 
 //middlewares
-app.use(cors())
+app.use(cors({
+    origin: 'https://arjunsharma.netlify.app'
+  }));
+  
 app.use(bodyParser.json())
 
 //routes
